@@ -27,17 +27,6 @@ FastAPI and a simple React frontend to demonstrate API usage.
 
 ------------------------------------------------------------------------
 
-## Project Structure
-
-prime-backend-assignment/ │ ├── backend │ ├── app │ │ ├── main.py │ │
-├── database.py │ │ ├── models.py │ │ ├── schemas.py │ │ ├── auth.py │ │
-├── dependencies.py │ │ ├── logger.py │ │ ├── routes │ │ │ ├──
-auth_routes.py │ │ │ ├── task_routes.py │ │ │ └── market_routes.py │ │
-└── tests │ │ └── test_tasks.py │ └── requirements.txt │ └── frontend
-└── src ├── api ├── components ├── pages └── styles
-
-------------------------------------------------------------------------
-
 ## Features
 
 ### Authentication
@@ -62,7 +51,7 @@ auth_routes.py │ │ │ ├── task_routes.py │ │ │ └── market
 
 Clone repository
 
-    git clone <your-repo-url>
+    git clone https://github.com/AnmolChauhan1234/prime-backend-assignment.git
     cd prime-backend-assignment/backend
 
 Create virtual environment
